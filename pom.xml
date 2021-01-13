@@ -15,10 +15,22 @@
     <dependencies>
     
         <dependency>
+		    <groupId>org.openjfx</groupId>
+		    <artifactId>javafx-base</artifactId>
+		    <version>16-ea+6</version>
+		</dependency>
+		
+        <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>11</version>
         </dependency>
+
+		<dependency>
+		    <groupId>org.openjfx</groupId>
+		    <artifactId>javafx-graphics</artifactId>
+		    <version>16-ea+6</version>
+		</dependency>
         
         <dependency>
             <groupId>org.openjfx</groupId>
