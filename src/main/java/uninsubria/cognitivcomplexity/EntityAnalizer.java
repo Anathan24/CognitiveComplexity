@@ -21,7 +21,7 @@ import com.github.javaparser.ast.body.TypeDeclaration;
 import com.github.javaparser.ast.stmt.BlockStmt;
 import com.github.javaparser.ast.stmt.Statement;
 
-import uninsubria.cognitivcomplexity.enums.EntityDeclarations;
+import uninsubria.cognitivcomplexity.enums.EntityDeclaration;
 
 public class EntityAnalizer {
 	
@@ -71,7 +71,7 @@ public class EntityAnalizer {
 	protected int analizeEntity(Node node, int methodNesting) {
 		int complexity = 0;
 		String entitySimpleName = node.getClass().getSimpleName();
-		EntityDeclarations type = EntityDeclarations.getEntityTypeFromString(entitySimpleName);
+		EntityDeclaration type = EntityDeclaration.getEntityTypeFromString(entitySimpleName);
 		switch(type) {
 		case CLASS_OR_INTERFACE_DECLARATION:
 			complexity = this.analizeClassOrInterfaceDeclaration(node, methodNesting);

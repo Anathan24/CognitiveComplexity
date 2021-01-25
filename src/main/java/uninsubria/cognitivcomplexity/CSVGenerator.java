@@ -6,8 +6,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -21,13 +19,13 @@ public class CSVGenerator {
 	
 	private Map<String, List<CalculusResult>> calculusResult; 
 	
-	public CSVGenerator(String path, Map<String, List<CalculusResult>> calculusResult) {
-		this.fileName = this.extractFileNameFromPath(path);
+	public CSVGenerator(String fileName, Map<String, List<CalculusResult>> calculusResult) {
+		this.fileName = fileName;
 		this.calculusResult = calculusResult;
-		this.createAndWriteCSVFile();
+		this.createCSVFile();
 	}
 	
-	public boolean createAndWriteCSVFile() {
+	public boolean createCSVFile() {
 		boolean fileCreated = false;
 		
 		try(
@@ -58,16 +56,5 @@ public class CSVGenerator {
 		}
 		
 		return fileCreated;
-	}
-	
-	private String extractFileNameFromPath(String path) {
-		String fileName = null;
-		String pattern = ".*\\\\(\\w+).java";
-		Pattern r = Pattern.compile(pattern);
-		Matcher m = r.matcher(path);
-		while(m.find()) {
-			fileName = m.group(1);
-		}
-		return fileName;
 	}
 }

@@ -109,7 +109,7 @@ public class StatementAnalizer {
 		Statement thenStmt = ifStmt.getThenStmt();
 		Optional<Statement> elseStmt = ifStmt.getElseStmt();
 
-		ifExpressionComplexity = new BinaryExpressionAnalizer().calculateExpressionComplexity(expr);
+		ifExpressionComplexity = new BinaryExprAnalizer().calculateExpressionComplexity(expr);
 		if(thenStmt instanceof BlockStmt) {
 			complexity += this.decomposeBlockStmt(thenStmt, nesting);
 			complexity += nesting;
@@ -146,7 +146,7 @@ public class StatementAnalizer {
 		Expression expr = doStmt.getCondition();
 		Statement stmt = doStmt.getBody();
 		
-		doWhileExpressionComplexity = new BinaryExpressionAnalizer().calculateExpressionComplexity(expr);
+		doWhileExpressionComplexity = new BinaryExprAnalizer().calculateExpressionComplexity(expr);
 		
 		if(stmt instanceof BlockStmt) 
 			complexity = this.decomposeBlockStmt(stmt, nesting);
@@ -162,7 +162,7 @@ public class StatementAnalizer {
 		Expression expr = whileStmt.getCondition();
 		Statement stmt = whileStmt.getBody();
 
-		whileExpressionComplexity = new BinaryExpressionAnalizer().calculateExpressionComplexity(expr);
+		whileExpressionComplexity = new BinaryExprAnalizer().calculateExpressionComplexity(expr);
 		
 		if(stmt instanceof BlockStmt) 
 			complexity = this.decomposeBlockStmt(stmt, nesting);
@@ -181,7 +181,7 @@ public class StatementAnalizer {
 		Statement stmt = forStmt.getBody();
 		
 		if(expr.isPresent())
-			forExpressionComplexity = new BinaryExpressionAnalizer().calculateExpressionComplexity(expr.get());
+			forExpressionComplexity = new BinaryExprAnalizer().calculateExpressionComplexity(expr.get());
 		
 		if(stmt instanceof BlockStmt) 
 			complexity = this.decomposeBlockStmt(stmt, nesting);

@@ -58,7 +58,7 @@ public class ExpressionAnalizer {
 				complexity = this.analizeObjectCreationExr(node, nesting);
 				break;
 			case BINARY_EXPR:
-				complexity = new BinaryExpressionAnalizer().calculateExpressionComplexity(node);
+				complexity = new BinaryExprAnalizer().calculateExpressionComplexity(node);
 				break;
 			case VARIABLE_DECLARATOR:
 				complexity = this.analizeVariableDeclarator(node, nesting);
@@ -124,7 +124,7 @@ public class ExpressionAnalizer {
 		ConditionalExpr condExpr = (ConditionalExpr)node;
 		Expression condition = condExpr.getCondition();
 		
-		complexity += new BinaryExpressionAnalizer().calculateExpressionComplexity(condition);
+		complexity += new BinaryExprAnalizer().calculateExpressionComplexity(condition);
 		
 		return complexity + nesting;
 	}

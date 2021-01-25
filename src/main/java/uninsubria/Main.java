@@ -1,11 +1,13 @@
 package uninsubria;
 
-import uninsubria.graficuserinterface.SelectFileWindow;
+import uninsubria.cognitivcomplexity.CognitiveComplexity;
 
 public class Main {
 
 	public static void main(String[] args) {
-		SelectFileWindow.main(args);
+		for(String str: args) {
+			new CognitiveComplexity(str);
+		}
 	}
 
 }
