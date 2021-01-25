@@ -24,6 +24,11 @@ public class BinaryExprAnalizer {
 	private int complexityOfNotOperators = 0;
 	private int sequenceComplexity = 0;
 
+	/**
+	 * Analizza il nodo per calcolare la sua complessità. Il tipo di nodo e un'espressione binaria
+	 * @param node il nodo na analizzare
+	 * @return int la complessità del nodo analizzato
+	 */
 	public int calculateExpressionComplexity(Node node) {
 		LogicalOperator lastOperator = null;
 		

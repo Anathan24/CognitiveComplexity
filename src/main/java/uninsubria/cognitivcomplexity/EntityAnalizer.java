@@ -32,7 +32,11 @@ public class EntityAnalizer {
 		//Default Class Constructor
 	}
 	
-	public Map<String, List<CalculusResult>> analizeJavaFile(CompilationUnit compUnit) {
+	/**
+	 * @param compUnit unita di compilaione che contiene i nodi da analizzare
+	 * @return Map contenente i risultti del calcolo
+	 */
+	public Map<String, List<CalculusResult>> parseJavaFile(CompilationUnit compUnit) {
 		int methodNesting = -1;
 		/*Estrazione di tutte le classi contenuti all'interno del file ricevuto in input.
 		 * Per "Types", si intende i tipi contenuti nel file, ovvero la classe che rappresentano i loro tipi.

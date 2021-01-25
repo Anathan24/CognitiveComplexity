@@ -19,14 +19,18 @@ public class CSVGenerator {
 	
 	private Map<String, List<CalculusResult>> calculusResult; 
 	
+	/**
+	 * Crea un csv file contenente i risultati dei calcoli.
+	 * @param fileName il nome del file.
+	 * @param calculusResult la struttura dati contenente i risultati dei calcoli.
+	 */
 	public CSVGenerator(String fileName, Map<String, List<CalculusResult>> calculusResult) {
 		this.fileName = fileName;
 		this.calculusResult = calculusResult;
 		this.createCSVFile();
 	}
 	
-	public boolean createCSVFile() {
-		boolean fileCreated = false;
+	private void createCSVFile() {
 		
 		try(
 				FileWriter file = new FileWriter(this.fileName+"_complexity.csv");
@@ -50,11 +54,9 @@ public class CSVGenerator {
 				printer.printRecord("Complessita' della classe: "+className+" = "+classComplexity);
 			}
 			printer.flush();
-			fileCreated = true;
 		} catch (IOException e) {
 			logger.debug("Creation CSV File failed! {}", e.getMessage());
 		}
 		
-		return fileCreated;
 	}
 }

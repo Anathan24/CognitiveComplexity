@@ -30,6 +30,12 @@ public class ExpressionAnalizer {
 		//Default Class Constructor
 	}
 	
+	/**
+	 * Analizza il nodo ed incrementa il livello di annidamento, se necessario.
+	 * @param node nodo da analizzare.
+	 * @param nesting il livello di annidamento.
+	 * @return la complessita' del nodo ricevuto in ingresso.
+	 */
 	public int analizeExpression(Node node,  int nesting) {
 		int complexity = 0;
 		

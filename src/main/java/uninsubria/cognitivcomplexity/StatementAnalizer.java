@@ -39,6 +39,11 @@ public class StatementAnalizer {
 		//Default Class Constructor
 	}
 	
+	/**
+	 * @param node nodo da analizzare
+	 * @param nesting il livello di annidamento
+	 * @return la complessita' del nodo ricevuto in ingresso
+	 */
 	public int analizeStatement(Node node, int nesting) {
 		int complexity = 0;
 

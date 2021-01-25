@@ -19,6 +19,10 @@ public class CognitiveComplexity {
 	private EntityAnalizer analizer = new EntityAnalizer();
 	private Map<String, List<CalculusResult>> calculusResult;
 	
+	/**
+	 * Calcola la complessita' cognitiva di un file.
+	 * @param fileName il nome del file da analizzare.
+	 */
 	public CognitiveComplexity(String fileName) {
 		this.fileName = fileName;
 		this.analizeJavaFile();
@@ -36,7 +40,7 @@ public class CognitiveComplexity {
 				logger.info("Creating compilation unit for {} ",fileName);
 				compUnit = StaticJavaParser.parse(file);
 				logger.info("START analyzing file {} ", fileName);
-				calculusResult = analizer.analizeJavaFile(compUnit);
+				calculusResult = analizer.parseJavaFile(compUnit);
 				
 				if(calculusResult != null) {
 					logger.info("Creating CSV file with calculation results");
