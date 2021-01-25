@@ -33,15 +33,13 @@ public class CognitiveComplexity {
 			
 			File file = new File(fileName);
 			if(file.exists()) {
-				logger.info("Creating compilation unit for {}...",fileName);
+				logger.info("Creating compilation unit for {} ",fileName);
 				compUnit = StaticJavaParser.parse(file);
-				logger.info("Compilation unit created.");
-				logger.info("START analyzing file {}...", fileName);
+				logger.info("START analyzing file {} ", fileName);
 				calculusResult = analizer.analizeJavaFile(compUnit);
-				logger.info("END analyzing.");
 				
 				if(calculusResult != null) {
-					logger.info("Creating CSV file with calculation results...");
+					logger.info("Creating CSV file with calculation results");
 					new CSVGenerator(fileName, calculusResult);
 					logger.info("CSV file created.");
 				}
