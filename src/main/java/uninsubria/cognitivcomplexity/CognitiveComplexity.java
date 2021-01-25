@@ -20,8 +20,9 @@ public class CognitiveComplexity {
 	private Map<String, List<CalculusResult>> calculusResult;
 	
 	/**
-	 * Calcola la complessita' cognitiva di un file.
-	 * @param fileName il nome del file da analizzare.
+	 * Calcola la complessita' cognitiva del file.
+	 * @param fileName il nome del file da analizzare, può contenere o non contenere l'estensione de file,
+	 * Se non c'e', viene aggiunto.
 	 */
 	public CognitiveComplexity(String fileName) {
 		this.fileName = fileName;
