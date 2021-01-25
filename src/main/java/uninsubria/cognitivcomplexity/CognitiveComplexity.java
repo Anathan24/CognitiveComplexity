@@ -46,7 +46,7 @@ public class CognitiveComplexity {
 					logger.info("CSV file created.");
 				}
 			}else {
-				logger.info("File with specified name not exist! Verify that the name is correct: {} or locate file in the same directory that a project",fileName);
+				logger.info("File with specified name not exist! Verify that the name is correct: {} and locate file in the same directory that a project",fileName);
 			}
 		
 		} catch (FileNotFoundException e) {
