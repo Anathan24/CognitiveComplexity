@@ -1,0 +1,333 @@
+07/02/2021 16:38:50 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
+07/02/2021 16:38:50 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.StatementAnalizer--> Statement Enum Type Not Found! Statement Simple Name: LineComment; Node: // Default Class Constructor
+
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getClass
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getSimpleName
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: Statements
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getEnumFromString
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmtSimpleName
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmtType
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeIfStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeDoStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeWhileStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeForStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeForEachStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeSwitchStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeTryStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeSynchronizedStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeLabeledStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeContinueStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeBreakStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeReturnStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeExpressionStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeLocalClassDeclarationStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: node instanceof Expression
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: ExpressionAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeExpression
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: logger
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: debug
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: StringLiteralExpr; Node: "Statement Enum Type Not Found! Statement Simple Name: {}; Node: {}"
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmtSimpleName
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (IfStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: ifStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getCondition
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: ifStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getThenStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: ifStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getElseStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: BinaryExprAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: calculateExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: expr
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: thenStmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: thenStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: thenStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: elseStmt.isPresent()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: elseStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: get
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: elseComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof IfStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: UnaryExpr; Node: nesting--
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: this.analizeStatement(stmt, nesting)
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: elseComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: ifExprComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (DoStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: doStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getCondition
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: doStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: BinaryExprAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: calculateExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: expr
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: doWhileExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (WhileStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: whileStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getCondition
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: whileStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: BinaryExprAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: calculateExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: expr
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: whileExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (ForStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: forStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getCompare
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: forStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: expr.isPresent()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: BinaryExprAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: calculateExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: expr
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: get
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: forExpressionComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (ForEachStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: forEachStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (SwitchStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: switchStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getSelector
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: switchStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getEntries
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: ExpressionAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeExpression
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: selector
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: entries.isNonEmpty()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: entry
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getStatements
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: switchExprComplexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (TryStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: tryStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getTryBlock
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: tryStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getCatchClauses
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: tryStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getFinallyBlock
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: tryBlockStmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: tryBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: catchClauses.isNonEmpty()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: catchClause
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: finallyBlock.isPresent()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: finallyBlock
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: get
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (SynchronizedStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: synchronizedStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getBody
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: InstanceOfExpr; Node: stmt instanceof BlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (LabeledStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: labeledStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getChildNodes
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: childs.isEmpty()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: child
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (ContinueStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: continueStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getLabel
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: lableName.isPresent()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (BreakStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: breakStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getLabel
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.BinaryExprAnalizer--> Binary Expression Enum Type Not Found! Expression Simple Name: MethodCallExpr; Node: lableName.isPresent()
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 1
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (ReturnStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: decomposeBlockStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: returnStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (ExpressionStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: exprStmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getExpression
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: ExpressionAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeExpression
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: expr
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: CastExpr; Node: (LocalClassDeclarationStmt) node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: localClass
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getChildNodes
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ClassOrInterfaceType; Node: EntityAnalizer
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeEntity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: localNode
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: IntegerLiteralExpr; Node: 0
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: stmt
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: getChildNodes
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: ThisExpr; Node: this
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: SimpleName; Node: analizeStatement
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: node
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: nesting
+07/02/2021 16:38:50 DEBUG uninsubria.cognitivcomplexity.ExpressionAnalizer--> Expression Enum Type Not Found! Expression Simple Name: NameExpr; Node: complexity
+07/02/2021 16:38:50 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+07/02/2021 16:38:50 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> CSV file created.

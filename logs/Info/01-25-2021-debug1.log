@@ -1,0 +1,45 @@
+25/01/2021 09:22:54 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File does not created!
+25/01/2021 09:31:36 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> false
+25/01/2021 09:31:36 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File con il nome indicato non esiste! Contrallare la coretteza del nome del file: StatementAnalizer
+25/01/2021 09:31:55 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> true
+25/01/2021 09:31:55 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File con il nome indicato non esiste! Contrallare la coretteza del nome del file: StatementAnalizer.java
+25/01/2021 09:32:02 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> true
+25/01/2021 09:32:02 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File con il nome indicato non esiste! Contrallare la coretteza del nome del file: StatementAnalizer.java
+25/01/2021 09:33:13 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File con il nome indicato non esiste! Contrallare la coretteza del nome del file: StatementAnalizer.java
+25/01/2021 09:36:02 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File con il nome indicato non esiste! Contrallare la coretteza del nome del file: StatementAnalizer.java
+25/01/2021 09:48:09 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java...
+25/01/2021 09:48:09 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Compilation unit created.
+25/01/2021 09:48:09 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java...
+25/01/2021 09:48:10 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> END analyzing.
+25/01/2021 09:48:10 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating CSV file with calculation results...
+25/01/2021 09:48:10 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> CSV file created.
+25/01/2021 09:48:38 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File with specified name not exist! Verify the name of file: StatementAnalizer.java
+25/01/2021 09:50:50 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File with specified name not exist! Verify that the name is correct : StatementAnalizer.java
+ or locate file in the same directory that a project
+25/01/2021 09:52:35 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File with specified name not exist! Verify that the name is correct : StatementAnalizer.java or locate file in the same directory that a project
+25/01/2021 09:52:57 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java...
+25/01/2021 09:52:58 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Compilation unit created.
+25/01/2021 09:52:58 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java...
+25/01/2021 09:52:58 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> END analyzing.
+25/01/2021 09:52:58 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating CSV file with calculation results...
+25/01/2021 09:52:58 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> CSV file created.
+25/01/2021 10:04:01 INFO uninsubria.Main--> No file nme received. Enter the name of the file to be processed!
+25/01/2021 10:04:09 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 10:05:06 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 10:05:57 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 10:06:06 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java...
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Compilation unit created.
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java...
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> END analyzing.
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating CSV file with calculation results...
+25/01/2021 10:06:43 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> CSV file created.
+25/01/2021 10:06:53 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> File with specified name not exist! Verify that the name is correct: StatementAnalizer.java and locate file in the same directory that a project
+25/01/2021 10:07:05 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 10:07:08 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 11:13:05 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 11:13:21 INFO uninsubria.Main--> No file name received. Enter the name of the file to be processed!
+25/01/2021 11:13:38 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
+25/01/2021 11:13:39 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
+25/01/2021 11:13:39 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+25/01/2021 11:13:39 INFO uninsubria.cognitivcomplexity.CognitiveComplexity--> CSV file created.
