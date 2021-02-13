@@ -52,15 +52,17 @@ public class CSVGenerator {
 	
 	private void printModule(CSVPrinter printer, List<ModuleInfoDAO> modules) throws IOException {
 		
-		if(modules != null)
+		if(modules != null) 
 			for(ModuleInfoDAO subModule: modules) {
-				printer.printRecord(
-						subModule.getModulePosition(),
-						subModule.getModuleDeclaration(),
-						subModule.getModuleComplexity());
-			
-			List<ModuleInfoDAO> subModules = subModule.getSubModules();
-			printModule(printer, subModules);
-		}
+				List<ModuleInfoDAO> subModules = subModule.getSubModules();
+				
+				if(subModules != null) 
+					printModule(printer, subModules);
+				else
+					printer.printRecord(
+							subModule.getModulePosition(),
+							subModule.getModuleDeclaration(),
+							subModule.getModuleComplexity());
+			}
 	}
 }
