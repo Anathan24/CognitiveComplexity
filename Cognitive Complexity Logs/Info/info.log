@@ -1,48 +1,52 @@
-13/02/2021 09:38:28 INFO uninsubria.Main--> START
-13/02/2021 09:38:28 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:38:28 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:38:29 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:38:29 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:38:29 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:38:29 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:38:29 INFO uninsubria.Main--> END
-13/02/2021 09:39:31 INFO uninsubria.Main--> START
-13/02/2021 09:39:31 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:39:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:39:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:39:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:39:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:39:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:39:31 INFO uninsubria.Main--> END
-13/02/2021 09:40:03 INFO uninsubria.Main--> START
-13/02/2021 09:40:03 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:40:03 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:40:03 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:40:04 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:40:04 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:40:04 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:40:04 INFO uninsubria.Main--> END
-13/02/2021 09:49:37 INFO uninsubria.Main--> START
-13/02/2021 09:49:37 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:49:37 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:49:38 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:49:38 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:49:38 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:49:38 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:49:38 INFO uninsubria.Main--> END
-13/02/2021 09:53:23 INFO uninsubria.Main--> START
-13/02/2021 09:53:23 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:53:23 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:53:23 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:53:23 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:53:23 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:53:23 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:53:23 INFO uninsubria.Main--> END
-13/02/2021 09:55:15 INFO uninsubria.Main--> START
-13/02/2021 09:55:15 INFO uninsubria.Main--> -----------------------------------------------
-13/02/2021 09:55:15 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for StatementAnalizer.java 
-13/02/2021 09:55:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file StatementAnalizer.java 
-13/02/2021 09:55:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
-13/02/2021 09:55:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
-13/02/2021 09:55:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
-13/02/2021 09:55:16 INFO uninsubria.Main--> END
+20/02/2021 09:26:21 INFO uninsubria.Main--> START
+20/02/2021 09:26:21 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:26:21 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> File with specified name not exist! Verify that the name is correct: StatementAnalizer.java and locate file in the same directory that a project
+20/02/2021 09:26:21 INFO uninsubria.Main--> END
+20/02/2021 09:27:03 INFO uninsubria.Main--> START
+20/02/2021 09:27:03 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:27:03 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:27:04 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:30:34 INFO uninsubria.Main--> START
+20/02/2021 09:30:34 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:30:34 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:30:35 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:30:35 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+20/02/2021 09:30:35 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
+20/02/2021 09:30:35 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
+20/02/2021 09:30:35 INFO uninsubria.Main--> END
+20/02/2021 09:38:43 INFO uninsubria.Main--> START
+20/02/2021 09:38:43 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:38:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:38:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:41:16 INFO uninsubria.Main--> START
+20/02/2021 09:41:16 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:41:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:41:16 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:41:31 INFO uninsubria.Main--> START
+20/02/2021 09:41:31 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:41:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:41:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:43:30 INFO uninsubria.Main--> START
+20/02/2021 09:43:30 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:43:30 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:43:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:43:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+20/02/2021 09:43:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
+20/02/2021 09:43:31 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
+20/02/2021 09:43:31 INFO uninsubria.Main--> END
+20/02/2021 09:43:42 INFO uninsubria.Main--> START
+20/02/2021 09:43:42 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:43:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:43:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:43:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+20/02/2021 09:43:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
+20/02/2021 09:43:43 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
+20/02/2021 09:43:43 INFO uninsubria.Main--> END
+20/02/2021 09:44:17 INFO uninsubria.Main--> START
+20/02/2021 09:44:17 INFO uninsubria.Main--> -----------------------------------------------
+20/02/2021 09:44:17 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating compilation unit for MRUFileManager.java 
+20/02/2021 09:44:17 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> START analyzing file MRUFileManager.java 
+20/02/2021 09:44:17 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> Creating CSV file with calculation results
+20/02/2021 09:44:17 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> CSV file created
+20/02/2021 09:44:17 INFO uninsubria.cognitivecomplexity.CognitiveComplexity--> -----------------------------------------------
+20/02/2021 09:44:17 INFO uninsubria.Main--> END

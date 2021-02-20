@@ -71,7 +71,7 @@ public class ExpressionAnalizer {
 				break;
 			case EXPRESSION_NOT_FOUND:
 				if(node instanceof MethodDeclaration) {
-					complexity = new EntityAnalizer().analizeEntity(node, nesting);
+					complexity = new ModuleAnalizer().analizeEntity(node, nesting);
 				}else {
 					logger.debug("Expression Enum Type Not Found! Expression Simple Name: {}; Node: {}", expressionSimpleName, node);
 				}

@@ -331,7 +331,7 @@ public class StatementAnalizer {
 		LocalClassDeclarationStmt localClass = (LocalClassDeclarationStmt)node;
 		List<Node> localNodes = localClass.getChildNodes();
 		for(Node localNode: localNodes) {
-			complexity = new EntityAnalizer().analizeEntity(localNode, nesting);
+			complexity = new ModuleAnalizer().analizeEntity(localNode, nesting);
 		}
 		return complexity;
 	}

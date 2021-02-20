@@ -1,12 +1,11 @@
 uninsubria\cognitivecomplexity\StatementAnalizer$1.class
-uninsubria\cognitivecomplexity\EntityAnalizer.class
 uninsubria\cognitivecomplexity\enums\LogicalOperator.class
 uninsubria\cognitivecomplexity\CognitiveComplexity.class
 uninsubria\cognitivecomplexity\ExpressionAnalizer$1.class
 uninsubria\cognitivecomplexity\dao\ModuleInfoDAO.class
 uninsubria\cognitivecomplexity\BinaryExprAnalizer.class
-uninsubria\cognitivecomplexity\EntityAnalizer$1.class
 uninsubria\cognitivecomplexity\BinaryExprAnalizer$1.class
+uninsubria\cognitivecomplexity\ModuleAnalizer.class
 uninsubria\cognitivecomplexity\enums\Expressions.class
 uninsubria\cognitivecomplexity\enums\EntityDeclaration.class
 uninsubria\Main.class
@@ -14,4 +13,5 @@ uninsubria\cognitivecomplexity\StatementAnalizer.class
 uninsubria\cognitivecomplexity\enums\BinaryExpression.class
 uninsubria\cognitivecomplexity\CSVGenerator.class
 uninsubria\cognitivecomplexity\ExpressionAnalizer.class
+uninsubria\cognitivecomplexity\ModuleAnalizer$1.class
 uninsubria\cognitivecomplexity\enums\Statements.class

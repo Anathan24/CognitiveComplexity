@@ -17,7 +17,7 @@ public class CognitiveComplexity {
 	private static final Logger logger = LogManager.getLogger();
 	private String fileName;
 	private final String FILE_EXTENSION = ".java";
-	private EntityAnalizer analizer = new EntityAnalizer();
+	private ModuleAnalizer analizer = new ModuleAnalizer();
 	
 	/**
 	 * Calcola la complessita' cognitiva del file.

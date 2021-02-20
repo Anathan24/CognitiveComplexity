@@ -37,7 +37,7 @@ public class BinaryExprAnalizer {
 		List<LogicalOperator> operators = this.analizeExpression(node);
 		
 		if(operators != null) {
-			if(operators.size() >= 3) 
+			if(operators.size() >= 3 && hasAtLeastTwoBinaryOper(operators)) 
 				this.calculateComplexityForNotOpertors(operators);	
 			else
 				this.removeNotOperatorsIfExist(operators);
@@ -142,5 +142,23 @@ public class BinaryExprAnalizer {
 			}
 		}
 		return operators;
+	}
+	
+	public boolean hasAtLeastTwoBinaryOper(List<LogicalOperator> operators) {
+		boolean result = false;
+		int count = 0;
+		
+		for(int i = 0; i<operators.size(); i++) {
+			if(count <= 2) {
+				if(operators.get(0) != NOT) {
+					count ++;
+				}
+			}else {
+				result = true;
+				break;
+			}
+		}
+
+		return result;
 	}
 }
