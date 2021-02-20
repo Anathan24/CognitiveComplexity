@@ -19,6 +19,7 @@ public class Main {
 		else
 			logger.info("No file name received. Enter the name of the file to be processed!");
 		
+		logger.info("-----------------------------------------------");
 		logger.info("END");
 	}
 }

@@ -32,15 +32,13 @@ public class CSVGenerator {
 	private void createCSVFile() {
 		
 		try(
-				FileWriter file = new FileWriter(this.fileName+"_complexity.csv");
+				FileWriter file = new FileWriter(this.fileName+" - complexity.csv");
 				CSVPrinter printer = new CSVPrinter(file, CSVFormat.DEFAULT);
 			){
-			printer.printRecord("Position","Method Declaration","Complexity");
+			printer.printRecord("Absolute Module Path", "Module Position", "Module Declaration", "Module Complexity");
 			for(ModuleInfoDAO type: calculusResult) {
 				List<ModuleInfoDAO> modules = type.getSubModules();
 				printModule(printer, modules);
-				printer.println();
-				printer.printRecord("Complessita' della classe: "+type.getModuleDeclaration()+" = "+type.getModuleComplexity());
 				printer.println();
 			}
 			printer.flush();
@@ -60,6 +58,7 @@ public class CSVGenerator {
 					printModule(printer, subModules);
 				else
 					printer.printRecord(
+							subModule.getAbsoluteModulePath(),
 							subModule.getModulePosition(),
 							subModule.getModuleDeclaration(),
 							subModule.getModuleComplexity());

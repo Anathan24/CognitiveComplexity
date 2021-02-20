@@ -17,7 +17,6 @@ public class CognitiveComplexity {
 	private static final Logger logger = LogManager.getLogger();
 	private String fileName;
 	private final String FILE_EXTENSION = ".java";
-	private ModuleAnalizer analizer = new ModuleAnalizer();
 	
 	/**
 	 * Calcola la complessita' cognitiva del file.
@@ -36,22 +35,23 @@ public class CognitiveComplexity {
 		try {
 			if(!fileName.endsWith(FILE_EXTENSION))
 				fileName += FILE_EXTENSION;
-			
+				
 			File file = new File(fileName);
+			
 			if(file.exists()) {
 				logger.info("Creating compilation unit for {} ",fileName);
 				compUnit = StaticJavaParser.parse(file);
 				logger.info("START analyzing file {} ", fileName);
-				calculusResult = analizer.parseJavaFile(compUnit);
+				String absoluteFilePath = file.getAbsolutePath();
+				calculusResult = new ModuleAnalizer(absoluteFilePath).parseJavaFile(compUnit);
 				
 				if(calculusResult != null) {
 					logger.info("Creating CSV file with calculation results");
 					new CSVGenerator(fileName, calculusResult);
 					logger.info("CSV file created");
-					logger.info("-----------------------------------------------");
 				}
 			}else {
-				logger.info("File with specified name not exist! Verify that the name is correct: {} and locate file in the same directory that a project",fileName);
+				logger.info("File with specified name not exist! Verify that the name is correct: {} and locate file in the same directory that a project", fileName);
 			}
 		
 		} catch (FileNotFoundException e) {

@@ -24,9 +24,14 @@ import uninsubria.cognitivecomplexity.enums.EntityDeclaration;
 public class ModuleAnalizer {
 	
 	private static final Logger logger = LogManager.getLogger();
+	private String absoluteFilePath;
 	
 	public ModuleAnalizer() {
-		//Default Class Constructor
+		//Default Constructor
+	}
+	
+	public ModuleAnalizer(String absoluteFilePath) {
+		this.absoluteFilePath = absoluteFilePath;
 	}
 	
 	/**
@@ -35,26 +40,20 @@ public class ModuleAnalizer {
 	 */
 	public  List<ModuleInfoDAO> parseJavaFile(CompilationUnit compUnit) {
 		int nesting = -1;
-		List<ModuleInfoDAO> allFileclasses = new LinkedList<>();
+		List<ModuleInfoDAO> allFileClasses = new LinkedList<>();
 		
 		NodeList<TypeDeclaration<?>> types = compUnit.getTypes();
 		for(TypeDeclaration<?> typeDeclaration: types) {
-			int classComplexity = 0;
-			ModuleInfoDAO type = new ModuleInfoDAO();
-			
 			List<ModuleInfoDAO> typeModules = this.analizeModuleDeclaration(typeDeclaration, nesting);
-			for(ModuleInfoDAO typeModule: typeModules ) {
-				classComplexity += typeModule.getModuleComplexity();
-			}
 			
+			ModuleInfoDAO type = new ModuleInfoDAO();
 			type.setModulePosition(typeDeclaration.getBegin().get().line);
 			type.setModuleDeclaration(typeDeclaration.getNameAsString());
-			type.setModuleComplexity(classComplexity);
 			type.setSubModules(typeModules);
-			allFileclasses.add(type);
+			allFileClasses.add(type);
 		}
 	
-		return allFileclasses;
+		return allFileClasses;
 	}
 	
 	private List<ModuleInfoDAO> analizeModuleDeclaration(TypeDeclaration<?> moduleDeclaration, int nesting) {
@@ -76,21 +75,14 @@ public class ModuleAnalizer {
 	}
 	
 	private ModuleInfoDAO analizeSubTypeDeclaration(BodyDeclaration<?> subTypeDeclaration, int nesting) {
-		int innerClassComplexity = 0;
-		ModuleInfoDAO moduleInfo = new ModuleInfoDAO();
-		
 		ClassOrInterfaceDeclaration subType = (ClassOrInterfaceDeclaration)subTypeDeclaration;
 		
+		List<ModuleInfoDAO> modules = this.analizeModuleDeclaration(subType, nesting);
+		
+		ModuleInfoDAO moduleInfo = new ModuleInfoDAO();
 		moduleInfo.setModulePosition(subType.getBegin().get().line);
 		moduleInfo.setModuleDeclaration(subType.getNameAsString());
-		
-		List<ModuleInfoDAO> modules = this.analizeModuleDeclaration(subType, nesting);
-		for(ModuleInfoDAO module: modules) {
-			innerClassComplexity += module.getModuleComplexity();
-		}
-		
 		moduleInfo.setSubModules(modules);
-		moduleInfo.setModuleComplexity(innerClassComplexity);
 		
 		return moduleInfo;
 	}
@@ -100,14 +92,15 @@ public class ModuleAnalizer {
 		
 		if(memberBodyDeclaration.isConstructorDeclaration()) {
 			ConstructorDeclaration constructorDeclaration = (ConstructorDeclaration)memberBodyDeclaration;
-			moduleInfo.setModuleDeclaration(constructorDeclaration.getDeclarationAsString(true, false, true));
+			moduleInfo.setModuleDeclaration(constructorDeclaration.getDeclarationAsString(false, false, true));
 		}
 		
 		if(memberBodyDeclaration.isMethodDeclaration()) {
 			MethodDeclaration methodDeclaration = (MethodDeclaration)memberBodyDeclaration;
-			moduleInfo.setModuleDeclaration(methodDeclaration.getDeclarationAsString(true, false, true));
+			moduleInfo.setModuleDeclaration(methodDeclaration.getDeclarationAsString(false, false, true));
 		}
 		
+		moduleInfo.setAbsoluteModulePath(this.absoluteFilePath);
 		moduleInfo.setModulePosition(this.getModulePosition(memberBodyDeclaration));
 		moduleInfo.setModuleComplexity(this.analizeEntity(memberBodyDeclaration, nesting));
 		
