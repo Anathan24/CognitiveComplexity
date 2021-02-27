@@ -1,13 +1,13 @@
+D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\OutputManager.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\enums\BinaryExpression.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\ModuleAnalizer.java
-D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\CSVGenerator.java
-D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\Main.java
+D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\StartApplication.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\StatementAnalizer.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\enums\ModuleDeclaration.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\ExpressionAnalizer.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\dao\ModuleInfoDAO.java
-D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\CognitiveComplexity.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\enums\Expressions.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\enums\LogicalOperator.java
+D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\InputManager.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\enums\Statements.java
 D:\Eclipse\CognitiveComplexity\src\main\java\uninsubria\cognitivecomplexity\core\BinaryExprAnalizer.java

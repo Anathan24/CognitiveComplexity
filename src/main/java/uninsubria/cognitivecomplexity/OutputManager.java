@@ -14,32 +14,25 @@ import uninsubria.cognitivecomplexity.dao.ModuleInfoDAO;
 public class OutputManager {
 
 	private static final Logger logger = LogManager.getLogger();
-	private String fileName = null;
 	
-	private List<ModuleInfoDAO> calculusResult; 
-	
-	/**
-	 * Crea un csv file contenente i risultati dei calcoli.
-	 * @param fileName il nome del file.
-	 * @param calculusResult la struttura dati contenente i risultati dei calcoli.
-	 */
-	public OutputManager(String fileName, List<ModuleInfoDAO> calculusResult) {
-		this.fileName = fileName;
-		this.calculusResult = calculusResult;
-		this.createCSVFile();
+	public OutputManager(String fileName, List<List<ModuleInfoDAO>> calculusResult) {
+		this.createCSVFile(fileName, calculusResult);
 	}
 	
-	private void createCSVFile() {
+	private void createCSVFile(String fileName, List<List<ModuleInfoDAO>> calculusResult) {
 		
 		try(
-				FileWriter file = new FileWriter(this.fileName+" - complexity.csv");
+				FileWriter file = new FileWriter(fileName+" - complexity.csv");
 				CSVPrinter printer = new CSVPrinter(file, CSVFormat.DEFAULT);
 			){
 			printer.printRecord("Absolute Module Path", "Module Position", "Module Declaration", "Module Complexity");
-			for(ModuleInfoDAO type: calculusResult) {
-				List<ModuleInfoDAO> modules = type.getSubModules();
-				printModule(printer, modules);
-				printer.println();
+			
+			for(List<ModuleInfoDAO> list: calculusResult) {
+				for(ModuleInfoDAO type: list) {
+					List<ModuleInfoDAO> modules = type.getSubModules();
+					printModule(printer, modules);
+					printer.println();
+				}
 			}
 			printer.flush();
 		} catch (IOException e) {
