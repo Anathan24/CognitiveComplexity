@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
@@ -16,7 +16,7 @@ import uninsubria.cognitivecomplexity.dao.ModuleInfoDAO;
 
 public class InputManager {
 	
-	private static final Logger logger = LogManager.getLogger();
+//	private static final Logger logger = LogManager.getLogger();
 	private final String FILE_EXTENSION = ".java";
 	
 	public InputManager() {

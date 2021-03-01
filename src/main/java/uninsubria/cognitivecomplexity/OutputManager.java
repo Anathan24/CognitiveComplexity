@@ -15,14 +15,14 @@ public class OutputManager {
 
 	private static final Logger logger = LogManager.getLogger();
 	
-	public OutputManager(String fileName, List<List<ModuleInfoDAO>> calculusResult) {
-		this.createCSVFile(fileName, calculusResult);
+	public OutputManager(String outputDirectory, String outputFileName, List<List<ModuleInfoDAO>> calculusResult) {
+		this.createCSVFile(outputDirectory, outputFileName, calculusResult);
 	}
 	
-	private void createCSVFile(String fileName, List<List<ModuleInfoDAO>> calculusResult) {
+	private void createCSVFile(String outputDirectory, String fileName, List<List<ModuleInfoDAO>> calculusResult) {
 		
 		try(
-				FileWriter file = new FileWriter(fileName+" - complexity.csv");
+				FileWriter file = new FileWriter(outputDirectory+"/"+fileName+".csv");
 				CSVPrinter printer = new CSVPrinter(file, CSVFormat.DEFAULT);
 			){
 			printer.printRecord("Absolute Module Path", "Module Position", "Module Declaration", "Module Complexity");
@@ -31,7 +31,6 @@ public class OutputManager {
 				for(ModuleInfoDAO type: list) {
 					List<ModuleInfoDAO> modules = type.getSubModules();
 					printModule(printer, modules);
-					printer.println();
 				}
 			}
 			printer.flush();
