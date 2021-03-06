@@ -4,9 +4,9 @@
         <Console name="Console" target="SYSTEM_OUT" >
 		   <PatternLayout pattern="%d{HH:mm} %-1p --> %msg%n"/>
         </Console>
-		
+		<!-- 
 		<RollingFile name="Info" fileName="Cognitive Complexity Logs/Info/info.log" filePattern="logs/Info/%d{MM-dd-yyyy}-debug%i.log" immediateFlush="true">
-			<PatternLayout pattern="%d{dd/MM/yyy HH:mm:ss} %-1p %logger{36}--> %msg%n"/>
+			<PatternLayout pattern="%d{dd/MM/yyy HH:mm:ss} %-1p %logger{36}, %msg%n"/>
 			<Policies>
 				<TimeBasedTriggeringPolicy/>
 				<SizeBasedTriggeringPolicy size="5 MB"/>
@@ -15,13 +15,13 @@
 		</RollingFile>
 		
 		<RollingFile name="Debug" fileName="Cognitive Complexity Logs/Debug/debug.log" filePattern="logs/Debug/%d{MM-dd-yyyy}-debug%i.log" immediateFlush="true">
-			<PatternLayout pattern="%d{dd/MM/yyy HH:mm:ss} %-1p %logger{36}--> %msg%n"/>
+			<PatternLayout pattern="%d{dd/MM/yyy HH:mm:ss} %-1p %logger{36}, %msg%n"/>
 			<Policies>
 				<TimeBasedTriggeringPolicy/>
 				<SizeBasedTriggeringPolicy size="5 MB"/>
 			</Policies>
 			<DefaultRolloverStrategy max="20"/>
-		</RollingFile>
+		</RollingFile> -->
 		
     </Appenders>
  
@@ -30,8 +30,6 @@
 		<!-- Root Logger -->
         <Root level="all">
             <appender-ref ref="Console" level="info"/> <!--Info = Monitoraggio delle attività del sistema-->
-			<appender-ref ref="Info" level="info"/>
-			<appender-ref ref="Debug" level="debug"/><!--Debug = verifica il funzionamento delle funzionalità implementate, ricerca dei bug -->
         </Root>
     </Loggers>
 </Configuration>

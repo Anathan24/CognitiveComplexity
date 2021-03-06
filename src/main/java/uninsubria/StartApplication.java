@@ -27,8 +27,15 @@ public class StartApplication {
 		directoryOrFile = this.askForInputFiles();
 		outputDirectory = this.askForOutputDirectory();
 		outputFileName = this.askForOutputFileName();
+		System.out.println();//Questa riga serve solo per serapare due blocchi di testo in console
 		calculusResults = new InputManager().executeCognitiveComplexityCalculus(directoryOrFile);
-		new OutputManager(outputDirectory.getAbsolutePath(), outputFileName, calculusResults);
+		System.out.println();//Questa riga serve solo per serapare due blocchi di testo in console
+		if(calculusResults != null && !calculusResults.isEmpty()) {
+			new OutputManager(outputDirectory.getAbsolutePath(), outputFileName, calculusResults);
+			logger.info("CSV file was created with name: {}, in directory: {}", outputFileName, outputDirectory);
+		}else {
+			logger.info("CSV file was not created because no java files founded!");
+		}
 	}
 	
 	private File askForInputFiles() throws IOException {
@@ -47,13 +54,14 @@ public class StartApplication {
 				}else if(directoryOrJavaFile.isFile()? directoryOrJavaFile.getName().endsWith(".java") : false){
 					result = directoryOrJavaFile;
 				}else {
+					logger.info("If you try to analyze a java file, check that the name of file end with file extension(.java)");
 					logger.info("Directory/File does not exist!");
 					logger.info("Retry (S/N) ?");
 					responce = readLine.readLine();
 				}
 				
 				if((responce.equals("N") || responce.equals("n")) && result == null) {
-					throw new IOException("Specified Directory/File does not exist! If you try to analyze a java file, check that the name of file end with file extension(.java)");
+					throw new IOException("Specified Directory/File does not exist!");
 				}
 				
 			}while(responce.equals("S") || responce.equals("s"));
@@ -127,21 +135,15 @@ public class StartApplication {
 		return result;
 	}
 	
-	public static void main(String[] args)  {
+	public static void main(String[] args) throws IOException  {
 		try {
 			logger.info("START");
-			logger.info("-----------------------------------------------");
 			new StartApplication();
-			logger.info("-----------------------------------------------");
 			logger.info("END");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}finally {
-			try {
-				readLine.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			readLine.close();
 		}
 		
 	}
