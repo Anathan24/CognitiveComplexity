@@ -3,7 +3,8 @@ package uninsubria.cognitivecomplexity.core.enums;
 public enum LogicalOperator {
 	AND("&&"),
 	OR("||"),
-	NOT("!");
+	NOT("!"),
+	OTHER("Other operator");
 
 	private String operator;
 	

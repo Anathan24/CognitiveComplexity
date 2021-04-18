@@ -1,9 +1,7 @@
 package uninsubria;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -19,13 +17,11 @@ public class StartApplication {
 	private static final Logger logger = LogManager.getLogger();
 	private File directoryOrFile = null;
 	private File outputDirectory = null;
-	private String outputFileName = null;
 	private List<List<ModuleInfoDAO>> calculusResults;
 	
 	private StartApplication(String directoryOrFilePath, String outputDirectoryPath, String outputFileName) throws IOException {
 		directoryOrFile = checkExistingInputDirectory(directoryOrFilePath);
 		outputDirectory = checkexistingOutputDirectory(outputDirectoryPath);
-		this.outputFileName = outputFileName;
 		
 		System.out.println();//Questa riga serve solo per serapare due blocchi di testo in console
 		calculusResults = new InputManager().executeCognitiveComplexityCalculus(directoryOrFile);

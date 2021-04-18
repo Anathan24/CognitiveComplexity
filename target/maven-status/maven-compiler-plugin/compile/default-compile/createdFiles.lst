@@ -9,9 +9,11 @@ uninsubria\cognitivecomplexity\dao\ModuleInfoDAO.class
 uninsubria\cognitivecomplexity\core\ExpressionAnalizer.class
 uninsubria\cognitivecomplexity\core\enums\LogicalOperator.class
 uninsubria\cognitivecomplexity\core\enums\ModuleDeclaration.class
+uninsubria\cognitivecomplexity\core\BinaryExprAnalizer$AndOrSequenceAnalizer.class
 uninsubria\cognitivecomplexity\core\StatementAnalizer$1.class
 uninsubria\StartApplication.class
 uninsubria\cognitivecomplexity\core\BinaryExprAnalizer$1.class
 uninsubria\cognitivecomplexity\core\enums\Expressions.class
+uninsubria\cognitivecomplexity\core\BinaryExprAnalizer$NotOperatorAnalizer.class
 uninsubria\cognitivecomplexity\core\enums\BinaryExpression.class
 uninsubria\cognitivecomplexity\core\ModuleAnalizer.class
