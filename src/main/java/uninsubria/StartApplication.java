@@ -11,7 +11,6 @@ import uninsubria.cognitivecomplexity.InputManager;
 import uninsubria.cognitivecomplexity.OutputManager;
 import uninsubria.cognitivecomplexity.dao.ModuleInfoDAO;
 
-
 public class StartApplication {
 
 	private static final Logger logger = LogManager.getLogger();
